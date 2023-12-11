@@ -1,0 +1,18 @@
+To boot:
+1.) use PGAdmin4 or other postgresql command
+2.) import the schema backups and data to a new database
+	right click the new database and click "restore" select the schema backups
+	do the same for the data backup
+3.) run the python code in terminal:
+	NOTE: you may need to install the required libraries
+	This software uses Pyscopg2 which can by downloaded by the following steps
+		In the command terminal:
+		1.) Type pip install psycopg2
+		For windows:
+		1.) Use windows powershell
+		2.) type py pip install psycopg2 
+		You may also install using the python installer and selecting the psycopg2 library
+
+
+Data was accquired from:
+https://figshare.com/articles/dataset/Data_from_The_Global_Avian_Invasions_Atlas_-_A_database_of_alien_bird_distributions_worldwide/4234850
